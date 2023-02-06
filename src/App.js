@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import RouterComponent from "./components/RouterComponent"
+import { HashRouter, Routes, Route } from "react-router-dom";
+import LandingPage from './components/LandingPage';
+
+// import RouterComponent from "./components/RouterComponent"
 
 function App() {
   return (
-    <div className="App">
-      Text from react app
-      
-      {/* <RouterComponent /> */}
-    </div>
+    <Routes>
+          <Route exact path ="/" element={<LandingPage />} />
+    </Routes>
   );
 }
 
