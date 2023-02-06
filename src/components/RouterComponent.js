@@ -7,7 +7,7 @@ const Router = props => {
   return (
     <>
       <Routes>
-          <Route path ="/" element={<LandingPage />} />
+          <Route path ="/landing" element={<LandingPage />} />
       </Routes>
     </>
   )
