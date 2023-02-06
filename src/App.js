@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       Text from react app
+      
       <RouterComponent />
     </div>
   );
