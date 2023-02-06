@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       Text from react app
       
-      <RouterComponent />
+      {/* <RouterComponent /> */}
     </div>
   );
 }
