@@ -2,7 +2,7 @@ import React from 'react'
 import { HashRouter, Route } from 'react-router-dom'
 import LandingPage from './LandingPage.js'
 
-const Router = props => {
+const RouterComponent = props => {
 
   return (
     <>
