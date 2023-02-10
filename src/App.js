@@ -1,12 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 import { Routes, Route } from "react-router-dom";
 
-import LandingPage from './components/LandingPage';
+// import LandingPage from './components/LandingPage';
 
-import BlogComponent from './components/BlogComponent.js'
-import WishListComponent from './components/WishListComponent';
+// import BlogComponent from './components/BlogComponent.js'
+// import WishListComponent from './components/WishListComponent';
 
 import Project1 from './components/projects/project-1/Project1';
 
@@ -20,10 +20,10 @@ function App() {
           {/* <Route exact path ="/" element={<LandingPage />} /> */}
           <Route exact path ="/" element={<Project1 />} />
 
-          <Route exact path ="/project1" element={<Project1 />} />
+          {/* <Route exact path ="/project1" element={<Project1 />} /> */}
           {/* <Route exact path ="/project1-app" element={<Main />} /> */}
-          <Route exact path ="/blog" element={<BlogComponent />} />
-          <Route exact path ="/wishlist" element={<WishListComponent />} />
+          {/* <Route exact path ="/blog" element={<BlogComponent />} /> */}
+          {/* <Route exact path ="/wishlist" element={<WishListComponent />} /> */}
     </Routes>
   );
 }
