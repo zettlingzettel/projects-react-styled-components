@@ -17,7 +17,9 @@ import Project1 from './components/projects/project-1/Project1';
 function App() {
   return (
     <Routes>
-          <Route exact path ="/" element={<LandingPage />} />
+          {/* <Route exact path ="/" element={<LandingPage />} /> */}
+          <Route exact path ="/" element={<Project1 />} />
+
           <Route exact path ="/project1" element={<Project1 />} />
           {/* <Route exact path ="/project1-app" element={<Main />} /> */}
           <Route exact path ="/blog" element={<BlogComponent />} />
