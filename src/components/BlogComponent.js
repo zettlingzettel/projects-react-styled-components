@@ -5,7 +5,7 @@ const BlogComponent = (props) => {
     <div className="container">
       <div className="row">
         <div className="col-sm-4">
-          <h3>Blog post 1</h3>
+          <h3>Blog Component -- Blog post 1</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
         </div>
         <div className="col-sm-4">
@@ -20,4 +20,4 @@ const BlogComponent = (props) => {
     </div>
   )
 }
-export default  BlogComponents
+export default  BlogComponent
