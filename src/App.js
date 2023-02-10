@@ -8,7 +8,11 @@ import LandingPage from './components/LandingPage';
 import BlogComponent from './components/BlogComponent.js'
 import WishListComponent from './components/WishListComponent';
 
+<<<<<<< HEAD
 import Project1 from './components/projects/project-1/Project1';
+=======
+import Project1 from './project-1/Project1';
+>>>>>>> 1a97ef1 (package lock update)
 
 // import Main from './project-1/Main.js';
 
